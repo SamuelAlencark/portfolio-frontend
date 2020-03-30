@@ -1,0 +1,923 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+
+
+body {
+    font-size: 16px;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+
+.App {
+    text-align: center;
+}
+
+
+.App-header {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    top: -1em;
+}
+
+.heading-background {
+    position: fixed;
+    opacity: 0.05;
+    font-size: 25em;
+    left: -0.2em;
+    top: -0.5em;
+    z-index: -100;
+    color: #9352ae;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 0.3em;
+    font-weight: 400;
+    padding: 2em;
+    margin-right: 35em;
+}
+
+nav {
+    position: fixed;
+    left: 8em;
+    top: 5em;
+}
+
+nav ul {
+    font-size: 8px;
+}
+
+nav li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+nav li .link {
+    text-decoration: none;
+    color: black;
+    padding: 1em;
+    opacity: 0.5;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+li .link:hover {
+    opacity: 1;
+}
+
+.active {
+    color: black;
+    opacity: 1;
+}
+
+.header-title button {
+    background: black;
+    border: 0px;
+    padding: 1em 3em;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+}
+
+.header-title button:hover {
+    opacity: 0.8;
+}
+
+.header-title button a {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.header-title {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5em;
+    text-align: left;
+    top: 1em;
+}
+
+.about {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 0em;
+}
+
+.about-content {
+    position: relative;
+    left: 2em;
+}
+
+.about-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: left;
+}
+
+.about-content p {
+    font-size: 0.3em;
+    text-align: left;
+    width: 37em;
+}
+
+.about img {
+    margin-left: 10em;
+    width: 40em;
+}
+
+.work {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    left: 2em;
+    top: 2em;
+}
+
+.work .heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    text-align: left;
+}
+
+.work .work-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5em;
+}
+
+.project img {
+    width: 5em;
+    height: 3em;
+}
+
+.work-font{
+    font-size: 0.7em;
+}
+
+.work-font-description{
+    font-size: 0.4em;
+}
+
+.contact {
+    position: relative;
+    top: -10em;
+    left: 2em;
+    text-align: left;
+}
+
+.contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.amazing-color {
+    color: #9352ae;
+    opacity: 1;
+}
+
+.contact .email {
+    color: black;
+    font-size: 1em;
+}
+
+.contact li {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 1em;
+    margin-left: 0;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    position: relative;
+    top: 2em;
+    padding: 1em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #2c59fb;
+}
+
+.challenges {
+  position: relative;
+  top: 4em;
+  left: 1em;
+  text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.challenges h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+
+/* SMARTPHONES PORTRAIT */
+@media only screen and (min-device-width: 320px) and (max-device-width: 699px) {
+
+    body {
+        font-size: 6px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        margin-right: 4em;
+    }
+
+    nav {
+        left: 40em;
+        top: 5.5em;
+        z-index: 100;
+    }
+
+    nav li {
+        font-size: 1.5em;
+
+    }
+
+    .heading-background {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 3em;
+        text-align: left;
+        top: 3em;
+        left: 2em;
+    }
+
+    .about {
+        position: relative;
+        display: flex;
+        top: -30em;
+        left: 4em;
+    }
+
+    .about img {
+        margin-left: 2em;
+        width: 34em;
+    }
+
+    .about-content {
+        left: 2em;
+    }
+
+    .about-content p {
+        font-size: 4em;
+        text-align: left;
+        width: 300px;
+    }
+
+    .work {
+        left: 9em;
+        top: -10em;
+        align-items: flex-start;
+    }
+
+    .work .work-content {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5em;
+        left: 15em;
+    }
+
+    .project img {
+        width: 45em;
+        height: 45em;
+    }
+
+    .work-font{
+        font-size: 25px;
+    }
+
+    .work-font-description{
+        font-size: 18px;
+    }
+
+    .challenges{
+        position: relative;
+        top: 10em;
+        left: 4em;
+    }
+    .challenges h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        text-align: left;
+    }
+
+    .challenges-content{
+        width: 70em;
+        font-size: 7px;
+        position: relative;
+    }
+
+    .contact {
+        top: 55em;
+        left: 2em;
+    }
+
+    .contact h1 {
+        font-size: 4em;
+    }
+
+    .contact .email {
+        font-size: 3.5em;
+    }
+
+    .contact li {
+        display: block;
+        padding: 2em;
+    }
+
+    .contact li a {
+        font-size: 2.5em;
+    }
+
+    .footer {
+        top: 4em;
+        padding: 1em;
+        font-size: 2em;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 775px) {
+
+    body {
+        font-size: 6px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        padding: 1em;
+        margin-right: 25em;
+        left: 3em;
+        position: relative;
+
+    }
+
+    nav {
+        left: 50em;
+        top: 3em;
+        z-index: 100;
+    }
+
+    nav li {
+        font-size: 2em;
+
+    }
+
+    .heading-background {
+        display: none;
+    }
+
+    .header-title {
+        font-size: 3em;
+        text-align: left;
+        top: 3em;
+        left: 3em;
+    }
+
+    .about {
+        position: relative;
+        display: flex;
+        top: -20em;
+        left: 8em;
+    }
+
+    .about img {
+        margin-left: 20em;
+    }
+
+    .about-content {
+        left: 2em;
+    }
+
+    .about-content h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5em;
+        text-align: left;
+    }
+
+    .about-content p {
+        font-size: 3em;
+        text-align: left;
+        width: 300px;
+    }
+
+    .work {
+        left: 20em;
+        top: 10em;
+        align-items: flex-start;
+    }
+
+
+    .work .heading {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5em;
+        text-align: left;
+    }
+
+    .work .work-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5em;
+        left: 10em;
+        position: relative;
+    }
+
+    .project img {
+        width: 45em;
+        height: 45em;
+    }
+
+    .work-font{
+        font-size: 25px;
+    }
+
+    .work-font-description{
+        font-size: 18px;
+    }
+
+    .challenges{
+        position: relative;
+        top: 25em;
+        left: 10em;
+    }
+
+    .challenges h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 5em;
+        text-align: left;
+    }
+
+    .challenges-content{
+        width: 110em;
+        font-size: 6px;
+        position: relative;
+        left: 0em;
+    }
+
+    .contact {
+        top: 100em;
+        left: 16em;
+    }
+
+    .contact h1 {
+        font-size: 4em;
+    }
+
+    .contact .email {
+        font-size: 3.5em;
+    }
+
+    .contact li {
+        display: block;
+        padding: 2em;
+    }
+
+    .contact li a {
+        font-size: 2.5em;
+    }
+
+    .footer {
+        top: 4em;
+        padding: 1em;
+        font-size: 2em;
+    }
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 1440px) and (max-device-width: 1823px) {
+
+
+    body {
+        font-size: 10px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        padding: 1em;
+        margin-right: 35em;
+        top: 1em;
+        position: relative;
+    }
+
+    nav {
+        left: 55em;
+        top: 6em;
+        z-index: 100;
+    }
+
+    nav ul {
+        font-size: 2em;
+    }
+
+    .header-title {
+        font-size: 3.6em;
+        text-align: left;
+        top: 2em;
+        left: 1em;
+    }
+
+    .about {
+        position: relative;
+        display: flex;
+        top: -5em;
+    }
+
+    .about img {
+        position: relative;
+        left: -25px;
+    }
+
+    .about-content {
+        left: 6em;
+    }
+
+    .about-content p {
+        font-size: 2em;
+        text-align: left;
+        width: 700px;
+    }
+
+    .challenges {
+        position: relative;
+        display: flex;
+        top: -40em;
+        left: 4em;
+    }
+
+    .work {
+        left: 6em;
+        top: 15em;
+        align-items: flex-start;
+    }
+
+    .work .work-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+        margin: 20px;
+        left: 6em;
+        position: relative;
+    }
+
+    .project img {
+        width: 30em;
+        height: 30em;
+    }
+
+    .work-font{
+        font-size: 25px;
+    }
+
+    .work-font-description{
+        font-size: 18px;
+    }
+
+    .challenges{
+        position: relative;
+        top: 23em;
+        left: 3em;
+    }
+
+    .challenges h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        text-align: left;
+    }
+
+    .challenges-content{
+        width: 24em;
+        font-size: 45px;
+        position: relative;
+        left: 0em;
+    }
+
+    .contact {
+        top: 65em;
+        left: 6em;
+    }
+
+    .contact h1 {
+        font-size: 4em;
+    }
+
+    .contact .email {
+        font-size: 3.5em;
+    }
+
+    .contact li {
+        display: block;
+        padding: 2em;
+    }
+
+    .contact li a {
+        font-size: 2.5em;
+    }
+
+    .footer {
+        top: 4em;
+        padding: 1em;
+        font-size: 2em;
+    }
+
+
+}
+
+@media only screen and (min-device-width: 780px) and (max-device-width: 1439px) {
+
+
+    body {
+        font-size: 10px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        padding: 1em;
+        margin-right: 18em;
+    }
+
+    nav {
+        left: 55em;
+        top: 3em;
+        z-index: 100;
+    }
+
+    nav ul {
+        font-size: 2em;
+    }
+
+    .header-title {
+        font-size: 4em;
+        text-align: left;
+        top: 1em;
+        left: 1em;
+    }
+
+    .about {
+        position: relative;
+        display: flex;
+        top: 8em;
+    }
+
+    .about img {
+        position: relative;
+        left: 0em;
+    }
+
+    .about-content {
+        left: 2em;
+    }
+
+    .about-content p {
+        font-size: 2em;
+        text-align: left;
+        width: 20em;
+    }
+
+    .work {
+        left: 2em;
+        top: 50em;
+        align-items: flex-start;
+    }
+
+    .work .work-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5em;
+        left: 6em;
+        position: relative;
+    }
+
+
+    .work-font {
+        font-size: 3em;
+    }
+
+    .work-font-description {
+        font-size: 1.5em;
+    }
+
+    .project img {
+        width: 30em;
+        height: 30em;
+    }
+
+
+    .challenges {
+        position: relative;
+        top: 40em;
+        left: 2em;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .challenges h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        text-align: left;
+    }
+
+    .challenges-content{
+        width: 19em;
+        font-size: 45px;
+        position: relative;
+        left: 0em;
+    }
+
+    .contact {
+        top: 110em;
+        left: 6em;
+    }
+
+    .contact h1 {
+        font-size: 3em;
+    }
+
+    .contact .email {
+        font-size: 2.5em;
+    }
+
+    .contact li {
+        display: block;
+        padding: 2em;
+    }
+
+    .contact li a {
+        font-size: 2.5em;
+    }
+
+    .footer {
+        top: 4em;
+        padding: 1em;
+        font-size: 2em;
+    }
+
+    .material-table span{
+        width: 10em;
+    }
+
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width: 1824px) {
+    /* Styles */
+    body {
+        font-size: 20px;
+    }
+
+    header h1 {
+        font-size: 2em;
+        margin-right: 45em;
+    }
+
+
+    nav {
+        left: 60em;
+        top: 4em;
+        z-index: 100;
+    }
+
+    nav li {
+        font-size: 4em;
+
+    }
+
+    .header-title {
+        font-size: 3em;
+        top: 1em;
+        left: 0em;
+    }
+
+    .about {
+        position: relative;
+        display: flex;
+        top: 3em;
+    }
+
+    .about-content {
+        left: 2em;
+    }
+
+    .about-content p {
+        font-size: 1.5em;
+        text-align: left;
+        width: 36em;
+    }
+
+    .about img {
+        margin-left: 28em;
+    }
+
+    .work {
+        left: 2em;
+        top: 12em;
+        align-items: flex-start;
+    }
+
+    .work .work-content {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        left: 10em;
+    }
+
+    .project img {
+        width: 30em;
+        height: 30em;
+    }
+
+    .work-font{
+        font-size: 1.5em;
+    }
+
+    .work-font-description{
+        font-size: 1em;
+    }
+
+    .contact {
+        top: 25em;
+        left: 8em;
+    }
+
+    .contact h1 {
+        font-size: 3em;
+    }
+
+    .contact .email {
+        font-size: 2em;
+    }
+
+    .contact li a {
+        font-size: 2em;
+        padding: 1em;
+    }
+
+    .footer {
+        top: 4em;
+        padding: 1em;
+        font-size: 4em;
+    }
+
+    .challenges {
+        position: relative;
+        top: 9em;
+        left: 1em;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .challenges h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3em;
+        text-align: left;
+    }
+
+    .challenges-content{
+        width: 45em;
+        font-size: 45px;
+        position: relative;
+        left: 4em;
+    }
+
+    .material-table span{
+        width: 6em;
+    }
+}
