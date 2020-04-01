@@ -249,21 +249,20 @@ li .link:hover {
     }
 
     header h1 {
-        font-size: 2em;
+        font-size: 3em;
         margin-right: 6em;
-        top: 1.6em;
-        right: 6em;
+        right: 2em;
         position: relative;
     }
 
     nav {
-        left: 10em;
-        top: 7em;
+        left: 17em;
+        top: 9em;
         z-index: 100;
     }
 
     nav li {
-        font-size: 1em;
+        font-size: 1.5em;
 
     }
 
@@ -275,6 +274,8 @@ li .link:hover {
         font-size: 2em;
         text-align: left;
         top: 3em;
+        left: 1em;
+        position: relative;
     }
 
     .about {
@@ -371,6 +372,9 @@ li .link:hover {
         font-size: 2em;
     }
 
+    .challenges-class{
+        display: none;
+    }
 
 }
 

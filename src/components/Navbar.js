@@ -46,7 +46,7 @@ class Navbar extends Component {
                     duration={500}
                 >Contact</Link></li>
                 <li><Link
-                    className='link'
+                    className='link challenges-class'
                     activeClass="active"
                     to="challenges"
                     spy={true}
