@@ -6,7 +6,7 @@ class Table extends Component {
     render() {
         
         const   { challenges } = this.props;
-        console.log(challenges);
+        
         return (
             <div className='material-table'>
                 <MaterialTable
