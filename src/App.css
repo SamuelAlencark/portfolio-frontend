@@ -249,18 +249,21 @@ li .link:hover {
     }
 
     header h1 {
-        font-size: 3em;
-        margin-right: 4em;
+        font-size: 2em;
+        margin-right: 6em;
+        top: 1.6em;
+        right: 6em;
+        position: relative;
     }
 
     nav {
-        left: 40em;
-        top: 5.5em;
+        left: 10em;
+        top: 7em;
         z-index: 100;
     }
 
     nav li {
-        font-size: 1.5em;
+        font-size: 1em;
 
     }
 
@@ -269,22 +272,21 @@ li .link:hover {
     }
 
     .header-title {
-        font-size: 3em;
+        font-size: 2em;
         text-align: left;
         top: 3em;
-        left: 2em;
     }
 
     .about {
         position: relative;
         display: flex;
         top: -30em;
-        left: 4em;
     }
 
     .about img {
         margin-left: 2em;
         width: 34em;
+        display: none;
     }
 
     .about-content {
@@ -298,7 +300,7 @@ li .link:hover {
     }
 
     .work {
-        left: 9em;
+        left: 2em;
         top: -10em;
         align-items: flex-start;
     }
@@ -308,12 +310,11 @@ li .link:hover {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 5em;
-        left: 15em;
     }
 
     .project img {
-        width: 45em;
-        height: 45em;
+        width: 40em;
+        height: 40em;
     }
 
     .work-font{
@@ -328,6 +329,7 @@ li .link:hover {
         position: relative;
         top: 10em;
         left: 4em;
+        display: none;
     }
     .challenges h1 {
         font-family: 'Montserrat', sans-serif;
@@ -342,7 +344,7 @@ li .link:hover {
     }
 
     .contact {
-        top: 55em;
+        top: 25em;
         left: 2em;
     }
 
