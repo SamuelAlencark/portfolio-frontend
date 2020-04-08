@@ -543,7 +543,7 @@ li .link:hover {
     }
 
     nav {
-        left: 65em;
+        left: 55em;
         top: 6em;
         z-index: 100;
     }
@@ -563,7 +563,6 @@ li .link:hover {
         position: relative;
         display: flex;
         top: -5em;
-        left: 5em;
     }
 
     .about img {
@@ -576,7 +575,7 @@ li .link:hover {
     }
 
     .about-content p {
-        font-size: 3em;
+        font-size: 2em;
         text-align: left;
         width: 700px;
     }
@@ -589,7 +588,7 @@ li .link:hover {
     }
 
     .work {
-        left: 11em;
+        left: 6em;
         top: 15em;
         align-items: flex-start;
     }
@@ -636,7 +635,7 @@ li .link:hover {
     }
 
     .contact {
-        top: 35em;
+        top: 65em;
         left: 6em;
     }
 
@@ -676,11 +675,11 @@ li .link:hover {
     header h1 {
         font-size: 3em;
         padding: 1em;
-        margin-right: 18em;
+        margin-right: 22em;
     }
 
     nav {
-        left: 35em;
+        left: 65em;
         top: 3em;
         z-index: 100;
     }
@@ -704,21 +703,21 @@ li .link:hover {
 
     .about img {
         position: relative;
-        left: 0em;
+        left: 25em;
     }
 
     .about-content {
-        left: 2em;
+        left: 20em;
     }
 
     .about-content p {
-        font-size: 2em;
+        font-size: 3em;
         text-align: left;
         width: 20em;
     }
 
     .work {
-        left: 2em;
+        left: 20em;
         top: 50em;
         align-items: flex-start;
     }
@@ -769,8 +768,8 @@ li .link:hover {
     }
 
     .contact {
-        top: 110em;
-        left: 6em;
+        top: 70em;
+        left: 17em;
     }
 
     .contact h1 {
