@@ -576,7 +576,7 @@ li .link:hover {
     }
 
     .about-content p {
-        font-size: 2em;
+        font-size: 3em;
         text-align: left;
         width: 700px;
     }
@@ -636,7 +636,7 @@ li .link:hover {
     }
 
     .contact {
-        top: 65em;
+        top: 35em;
         left: 6em;
     }
 
