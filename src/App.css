@@ -543,7 +543,7 @@ li .link:hover {
     }
 
     nav {
-        left: 55em;
+        left: 65em;
         top: 6em;
         z-index: 100;
     }
@@ -563,6 +563,7 @@ li .link:hover {
         position: relative;
         display: flex;
         top: -5em;
+        left: 5em;
     }
 
     .about img {
@@ -588,7 +589,7 @@ li .link:hover {
     }
 
     .work {
-        left: 6em;
+        left: 11em;
         top: 15em;
         align-items: flex-start;
     }
