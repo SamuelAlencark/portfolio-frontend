@@ -692,7 +692,7 @@ li .link:hover {
         font-size: 4em;
         text-align: left;
         top: 1em;
-        left:-1em;
+        left:2em;
     }
 
     .about {
@@ -707,7 +707,7 @@ li .link:hover {
     }
 
     .about-content {
-        left: 20em;
+        left: 26em;
     }
 
     .about-content p {
@@ -717,7 +717,7 @@ li .link:hover {
     }
 
     .work {
-        left: 20em;
+        left: 30em;
         top: 50em;
         align-items: flex-start;
     }
@@ -769,7 +769,7 @@ li .link:hover {
 
     .contact {
         top: 70em;
-        left: 17em;
+        left: 25em;
     }
 
     .contact h1 {
