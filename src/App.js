@@ -22,9 +22,10 @@ function App() {
             <div className='work'>
                 <Work></Work>
             </div>
+            {/*
             <div className='challenges'>
                 <Challenges></Challenges>
-            </div>
+            </div> */ }
             <div className='contact'>
                 <Contact></Contact>
             </div>

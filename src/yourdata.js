@@ -6,7 +6,8 @@ export default {
         'from Brazil'
     ],
     contactEmail: 'samuelalencar8@gmail.com',
-    abouttext: "Immersed in many massive and complex projects. I've been developing in the biggests companies of my country. In Healthcare, Insurance and Financial areas. ",
+    abouttext1: "Bachelor of computer science, with 4 years of development experience, I'm immersed in many massive and complex projects. I've been developing in the biggest companies of my country. In Healthcare, Insurance and Financial areas.",
+    abouttext2: "Being able to build systems with Singleton and Model-View-Controller design patterns, nowadays studying and looking forward to try Test-Driven Design and Domain-Driven Design either. Furthermore, I'm able to produce APIs with the force of the Multithread feature, and with the endpoints accessible over SSL, connected by Continuous Integration and Continuous Deployment of AWS.",
     aboutImage: 'https://images.unsplash.com/photo-1584656066697-d772d88657d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
     ShowAboutImage: true,
     projects: [

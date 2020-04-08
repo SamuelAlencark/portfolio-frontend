@@ -251,12 +251,12 @@ li .link:hover {
     header h1 {
         font-size: 3em;
         margin-right: 6em;
-        right: 2em;
+        right: 1em;
         position: relative;
     }
 
     nav {
-        left: 17em;
+        left: 5em;
         top: 9em;
         z-index: 100;
     }
@@ -291,17 +291,17 @@ li .link:hover {
     }
 
     .about-content {
-        left: 2em;
+        left: 4em;
     }
 
     .about-content p {
-        font-size: 4em;
+        font-size: 3em;
         text-align: left;
-        width: 300px;
+        width: 250px;
     }
 
     .work {
-        left: 2em;
+        left: 3em;
         top: -10em;
         align-items: flex-start;
     }
@@ -346,7 +346,7 @@ li .link:hover {
 
     .contact {
         top: 25em;
-        left: 2em;
+        left: 3em;
     }
 
     .contact h1 {
@@ -419,7 +419,7 @@ li .link:hover {
         position: relative;
         display: flex;
         top: -20em;
-        left: 8em;
+        left: 4em;
     }
 
     .about img {
@@ -479,7 +479,7 @@ li .link:hover {
     .challenges{
         position: relative;
         top: 25em;
-        left: 10em;
+        left: 5em;
     }
 
     .challenges h1 {
@@ -556,7 +556,7 @@ li .link:hover {
         font-size: 3.6em;
         text-align: left;
         top: 2em;
-        left: 1em;
+        left: 2em;
     }
 
     .about {
@@ -603,8 +603,8 @@ li .link:hover {
     }
 
     .project img {
-        width: 30em;
-        height: 30em;
+        width: 25em;
+        height: 20em;
     }
 
     .work-font{
@@ -679,7 +679,7 @@ li .link:hover {
     }
 
     nav {
-        left: 55em;
+        left: 35em;
         top: 3em;
         z-index: 100;
     }
@@ -692,7 +692,7 @@ li .link:hover {
         font-size: 4em;
         text-align: left;
         top: 1em;
-        left: 1em;
+        left:-1em;
     }
 
     .about {
@@ -838,7 +838,7 @@ li .link:hover {
     }
 
     .about-content {
-        left: 2em;
+        left: 7em;
     }
 
     .about-content p {
@@ -852,7 +852,7 @@ li .link:hover {
     }
 
     .work {
-        left: 2em;
+        left: 6em;
         top: 12em;
         align-items: flex-start;
     }
@@ -861,12 +861,12 @@ li .link:hover {
         position: relative;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        left: 10em;
+        left: 15em;
     }
 
     .project img {
-        width: 30em;
-        height: 30em;
+        width: 20em;
+        height: 20em;
     }
 
     .work-font{
@@ -904,7 +904,7 @@ li .link:hover {
     .challenges {
         position: relative;
         top: 9em;
-        left: 1em;
+        left: 5em;
         text-align: left;
         display: flex;
         flex-direction: column;

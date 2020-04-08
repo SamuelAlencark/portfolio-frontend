@@ -37,15 +37,6 @@ class Navbar extends Component {
                     duration={500}
                 >Work</Link></li>
                 <li><Link
-                    className='link'
-                    activeClass="active"
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >Contact</Link></li>
-                <li><Link
                     className='link challenges-class'
                     activeClass="active"
                     to="challenges"
@@ -54,6 +45,15 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >Challenges</Link></li>
+                <li><Link
+                    className='link'
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >Contact</Link></li>
             </ul>
         </nav> );
     }
